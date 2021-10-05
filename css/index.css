@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap');
+
+body {
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: 'Raleway', sans-serif!important;
+    background-color: lightgrey;
+}
+
+.intro-nav-link {
+    font-weight: 400!important;
+}
+
+.intro {
+    background: url(../img/main-img.png) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: auto;
+    padding-top: 130px;
+    padding-bottom: 50px;
+    margin-top: 40px;
+    width: 100%;
+}
+
+.gold {
+    color: #cea135;
+}
+
+.intro-title {
+    color: #cea135;
+}
+
+.intro-head {
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 15px;
+}
+
+.intro-text {
+    width: 60%;
+}
+
+.img {
+    height: 200px!important;
+    width: 230px!important;
+}
+
+.img1 {
+    height: 140px;
+    width: 140px;
+}
+
+.img2 {
+    height: 200px;
+    width: 200px;
+}
+
+.img3 {
+    height: 140px;
+    width: 140px;
+}
+
+.space {
+    margin-top: 110px;
+    margin-bottom: 110px;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.icon {
+    font-size: 20px!important;
+}
