@@ -1,0 +1,22 @@
+{
+  "name": "shaylace-boutique",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000s\u0000h\u0000a\u0000y\u0000l\u0000a\u0000c\u0000e\u0000-\u0000b\u0000o\u0000u\u0000t\u0000i\u0000q\u0000u\u0000e\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StephenBrooks220413/shaylace-boutique.git"
+  },
+  "keywords": ["hair pieces", "hair wigs", "hair extensions"],
+  "author": "Stephen Brooks",
+  "developerEmail": "stephenbrooks714@gmail.com",
+  "developerWebsite": "https://codingwithstephen.netlify.app/",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StephenBrooks220413/shaylace-boutique/issues"
+  },
+  "homepage": "https://github.com/StephenBrooks220413/shaylace-boutique#readme"
+}
