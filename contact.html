@@ -23,7 +23,11 @@
 
 <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#">BOUTIQUE</a>
+        <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="#">
+                <img src="./img/logo.PNG" style="height:50px;" alt="">
+            </a>
+        </a>
         <button
                 class="navbar-toggler"
                 type="button"
@@ -54,6 +58,9 @@
                             <a class="dropdown-item" href="index.html">Home</a>
                         </li>
                         <li>
+                          <a class="dropdown-item" href="about.html">About</a>
+                        </li>
+                        <li>
                             <a class="dropdown-item" href="catalog.html">Catalog</a>
                         </li>
                         <li>
@@ -81,7 +88,7 @@
 </nav>
 
 <main>
-    <div class="container space">
+    <div class="container page text-white space-footer">
         <br>
         <h1 class="display-4">Contact Boutique</h1>
         <br>
@@ -90,19 +97,19 @@
             <!-- Name input -->
             <div class="form-outline mb-4">
                 <input type="text" id="form4Example1" required name="name" class="form-control" />
-                <label class="form-label" for="form4Example1">Name</label>
+                <label class="form-label text-white" for="form4Example1">Name</label>
             </div>
 
             <!-- Email input -->
             <div class="form-outline mb-4">
                 <input type="email" id="form4Example2" required name="email" class="form-control" />
-                <label class="form-label" for="form4Example2">Email address</label>
+                <label class="form-label text-white" for="form4Example2">Email address</label>
             </div>
 
             <!-- Message input -->
             <div class="form-outline mb-4">
                 <textarea class="form-control" name="message" required id="form4Example3" rows="4"></textarea>
-                <label class="form-label" for="form4Example3">Message</label>
+                <label class="form-label text-white" for="form4Example3">Message</label>
             </div>
 
             <!-- Checkbox -->
@@ -115,8 +122,9 @@
                         required
                         unchecked
                 />
-                <label class="form-check-label text-dark" for="form4Example4">
-                    I agree to be contacted by the hair treatment professional.
+                <label class="form-check-label text-white" for="form4Example4">
+                    I agree to be contacted by the hair treatment professional,
+                    which may include solicitation of a sale of hair products.
                 </label>
             </div>
 
